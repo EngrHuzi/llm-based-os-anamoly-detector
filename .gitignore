@@ -1,0 +1,23 @@
+# Environment — never commit secrets
+.env
+
+# UV
+.venv/
+.python-version
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+build/
+dist/
+wheels/
+*.egg-info
+
+# Reports
+anomaly_report.txt
+
+# IDE
+.vscode/
+.idea/
+*.code-workspace
